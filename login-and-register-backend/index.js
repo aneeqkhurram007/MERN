@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import mongoose from 'mongoose';
-const DB = 'mongodb+srv://aneeqkhurram007:MastiNaKar&951@cluster0.codqo.mongodb.net/myLogin?retryWrites=true&w=majority'
+const DB = 'mongodb://localhost:27017/myLoginRegisterDB'
 const port = process.env.PORT || 9002;
 const app = express();
 app.use(cors());
